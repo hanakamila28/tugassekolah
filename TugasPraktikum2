@@ -1,0 +1,17 @@
+package TP;
+
+public class dua {
+    public static void main (String [] args){
+        /*int bilangan [5] = {1,2,3,4,5,6,7,8}; program akan error karena dalam kurung siku pada tipe data harus kosong
+        System.out.println(bilangan [5]); program akan error karena pada inputan hanya ada 4 indeks
+        */
+        
+        //pembetulan
+        int bilangan [] = {1,2,3,4,5,6,7,8};
+        for (int i=0; i<bilangan.length; i++){
+         
+        System.out.print(bilangan[i]);
+        System.out.print(" ");
+    }
+}
+}
